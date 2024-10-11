@@ -232,12 +232,14 @@ marquee {
     flex-direction: column;
     width: 100%;
     position: absolute;
-    top: 80px;
-    left: 0;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: wheat;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 1rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: -2;
 }
 
 .nav-toggle:focus + .nav-links,
