@@ -185,7 +185,7 @@ marquee {
 
     #container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -199,8 +199,21 @@ marquee {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 20px;
 }
+
+    #about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about-container {
+        width: 100%;
+        text-align: center;
+    }
 
   .logo img {
     width: 100px;
@@ -235,4 +248,10 @@ marquee {
 .nav-links li {
     margin: 10px 0;
 }
+
+    #container img {
+        width: 200px;
+        height: auto;
+    }
+
 }
